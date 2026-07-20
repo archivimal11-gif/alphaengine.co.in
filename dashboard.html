@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta http-equiv="refresh" content="20">
+<title>MTF Alpha Bot Dashboard</title>
+<style>
+body { font-family: 'Courier New', monospace; background:#0d0d0d; color:#ddd; padding:20px; }
+.xdash { border-collapse: collapse; background:#000; border:1px solid #333; }
+.xdash td { padding:6px 14px; border-bottom:1px solid #222; font-size:14px; }
+.xdash .title { background:#111; color:#4caf50; font-weight:bold; text-align:center; letter-spacing:2px; }
+.label { color:#888; }
+.note { color:#777; font-size:12px; font-style:italic; }
+</style></head><body>
+<h2>MTF Alpha Bot — Live Dashboard</h2>
+<p>Last updated: 2026-07-20 09:30:00+05:30</p>
+
+<table class="xdash">
+<tr><td class="title" colspan="4">SIGNAL DASHBOARD</td></tr>
+<tr><td class="label">SIGNAL</td>
+    <td style="color:#4caf50;font-weight:bold;">BUY</td>
+    <td style="color:#888;">7 OF 7</td>
+    <td>LONG READY</td></tr>
+<tr><td class="label">SIGNAL STRENGTH</td>
+    <td style="color:#4caf50;">100%</td>
+    <td style="color:#4caf50;">BULL</td><td></td></tr>
+<tr><td class="label">REVERSAL STRENGTH</td>
+    <td style="color:#f44336;">-23%</td>
+    <td style="color:#f44336;">GAP NARROWING</td><td></td></tr>
+<tr><td></td><td></td><td class="note">Favouring signal</td><td></td></tr>
+<tr><td class="label">GAP STRENGTH</td><td></td>
+    <td style="color:#888;">1/7 UP</td><td></td></tr>
+<tr><td class="label">ALPHA SCORE</td>
+    <td style="color:#f44336;">44</td>
+    <td style="color:#888;">Neutral</td><td></td></tr>
+<tr><td></td>
+    <td style="color:#f44336;">BEAR</td>
+    <td class="note">Favouring signal</td><td></td></tr>
+<tr><td class="label">REVERSAL SCORE</td>
+    <td style="color:#ff9800;">41%</td>
+    <td style="color:#888;">Neutral</td><td></td></tr>
+<tr><td></td>
+    <td style="color:#f44336;">BEAR</td>
+    <td class="note">Favouring signal</td><td></td></tr>
+<tr><td class="label" colspan="2">CONDITION OF SIGNALS CORRELATION:</td>
+    <td colspan="2" style="color:#f44336;">3/3 aligned BEAR</td></tr>
+</table>
+
+<h3 style="margin-top:24px;">Main Dashboard (Pine-style)</h3>
+<table class="xdash">
+<tr><td class="title">TF</td><td class="title">T Left</td><td class="title">Bias</td><td class="title">TWAP Gap</td></tr>
+<tr><td>15m</td><td>14m</td><td style='color:#f44336;'>Bear</td><td>45.4</td></tr><tr><td>30m</td><td>14m</td><td style='color:#4caf50;'>Bull</td><td>22.1</td></tr><tr><td>45m</td><td>29m</td><td style='color:#4caf50;'>Bull</td><td>17.5</td></tr><tr><td>1H</td><td>44m</td><td style='color:#4caf50;'>Bull</td><td>17.5</td></tr><tr><td>2H</td><td>44m</td><td style='color:#4caf50;'>Bull</td><td>17.5</td></tr><tr><td>3H</td><td>164m</td><td style='color:#4caf50;'>Bull</td><td>17.5</td></tr><tr><td>4H</td><td>164m</td><td style='color:#4caf50;'>Bull</td><td>17.5</td></tr><tr><td>Daily</td><td>884m</td><td style='color:#4caf50;'>Bull</td><td>17.5</td></tr>
+<tr><td class="label">Signal 96%</td><td colspan="2">confirm</td>
+    <td>STRONG BUY</td></tr>
+<tr><td class="label" colspan="2">Buy zone (approx)</td>
+    <td colspan="2" style="color:#4caf50;">70% Moderate</td></tr>
+<tr><td class="label" colspan="2">Sell zone (approx)</td>
+    <td colspan="2" style="color:#f44336;">30% Very Weak</td></tr>
+<tr><td colspan='4' style='color:#666;'>Reversal Probability — no open position</td></tr>
+<tr><td class="label">TRENDING</td>
+    <td colspan="2" style="color:#4caf50;">TRENDING score 1/4</td><td></td></tr>
+<tr><td class="label" colspan="4">zone signals (per-TF buy%, exact formula)</td></tr>
+<tr><td>15m</td><td>30m</td><td>45m</td><td>1H</td><td>2H</td><td>3H</td><td>4H</td><td>Daily</td></tr>
+<tr><td>50%</td><td>50%</td><td>50%</td><td>50%</td><td>50%</td><td>50%</td><td>66%</td><td>50%</td></tr>
+</table>
+<p class="note">Buy/Sell zone %, and the overall composite, are an approximation of the Pine
+script's "8-layer" formula — not a byte-for-byte match. Per-TF Bias/Gap/T-Left, Signal %,
+and TRENDING score are exact.</p>
+
+<p><b>No open position</b></p>
+
+<p>Dummy balance: ₹124810</p>
+<h3>Recent events</h3>
+<ul><li>2026-07-20 09:30:00+05:30 EXIT NSE:NIFTY2672124200CE @ ~109.2 P&L=₹-3206 (Trailing stop hit)</li><li>2026-07-20 09:30:00+05:30 ENTRY LONG NSE:NIFTY2672124200CE qty=1125 @ ~112.05 (signal)</li><li>2026-07-20 09:30:00+05:30 EXIT NSE:NIFTY2672124250CE @ ~87.45 P&L=₹-641 (Trailing stop hit)</li><li>2026-07-20 09:30:00+05:30 ENTRY LONG NSE:NIFTY2672124250CE qty=1425 @ ~87.9 (signal)</li><li>2026-07-20 09:30:00+05:30 EXIT NSE:NIFTY2672124250CE @ ~91.8 P&L=₹-9990 (Trailing stop hit)</li><li>2026-07-20 09:30:00+05:30 ENTRY LONG NSE:NIFTY2672124250CE qty=1350 @ ~99.2 (signal)</li><li>2026-07-20 09:30:00+05:30 EXIT NSE:NIFTY2672124250CE @ ~104.9 P&L=₹-765 (Trailing stop hit)</li><li>2026-07-20 09:30:00+05:30 ENTRY LONG NSE:NIFTY2672124250CE qty=1275 @ ~105.5 (signal)</li><li>2026-07-20 09:30:00+05:30 EXIT NSE:NIFTY2672124250CE @ ~105 P&L=₹3698 (Trailing stop hit)</li><li>2026-07-20 09:30:00+05:30 ENTRY LONG NSE:NIFTY2672124250CE qty=1275 @ ~102.1 (signal)</li><li>2026-07-20 09:30:00+05:30 EXIT NSE:NIFTY2672124250CE @ ~99 P&L=₹5400 (Trailing stop hit)</li><li>2026-07-20 09:30:00+05:30 ENTRY LONG NSE:NIFTY2672124250CE qty=1350 @ ~95 (signal)</li><li>2026-07-20 09:30:00+05:30 EXIT NSE:NIFTY2672124250CE @ ~96.4 P&L=₹-4016 (Trailing stop hit)</li><li>2026-07-20 09:30:00+05:30 ENTRY LONG NSE:NIFTY2672124250CE qty=1275 @ ~99.55 (signal)</li><li>2026-07-20 09:30:00+05:30 EXIT NSE:NIFTY2672124250CE @ ~101.6 P&L=₹4016 (Trailing stop hit)</li><li>2026-07-20 09:30:00+05:30 ENTRY LONG NSE:NIFTY2672124250CE qty=1275 @ ~98.45 (signal)</li><li>2026-07-20 09:30:00+05:30 EXIT NSE:NIFTY2672124250CE @ ~101.85 P&L=₹-1912 (Trailing stop hit)</li><li>2026-07-20 09:30:00+05:30 ENTRY LONG NSE:NIFTY2672124250CE qty=1275 @ ~103.35 (signal)</li><li>2026-07-20 09:30:00+05:30 EXIT NSE:NIFTY2672124250CE @ ~102.1 P&L=₹3889 (Trailing stop hit)</li><li>2026-07-20 09:30:00+05:30 ENTRY LONG NSE:NIFTY2672124250CE qty=1275 @ ~99.05 (signal)</li></ul>
+</body></html>
